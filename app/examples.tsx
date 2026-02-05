@@ -63,6 +63,12 @@ const MainScreen = () => {
       },
     },
     {
+      title: "Animated Position",
+      onOpen: () => {
+        SheetManager.show("animated-position")
+      },
+    },
+    {
       title: 'I can snap!',
       onOpen: () => {
         SheetManager.show('snap-me');
