@@ -11,7 +11,7 @@ function AnimatedPositionSheet() {
 
   const fabPositionStyle = useAnimatedStyle(() => {
     return {
-      top: animatedPosition.value - 80
+      top: animatedPosition.value - 80,
     };
   });
 
@@ -51,8 +51,7 @@ function AnimatedPositionSheet() {
         snapPoints={[40, 100]}
         initialSnapIndex={0}
         animatedPosition={animatedPosition}
-        containerStyle=
-        {{
+        containerStyle={{
           height: '100%',
         }}>
         <View
